@@ -1,0 +1,2209 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN" at "2026-11-20T00:47:49.7425839Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 7895 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-20T00:47:49Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23712, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_4.0.1.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.19.0+4cc3dda
+  Session Id:              08c1d3ad4ec34ab68cbf4ca4165bd9cf
+  Correlation Id:          29ad95537e469f915dea90d98a2e99c6
+  External correlation Id: 61435870900794784
+  Machine Id:              ioZpAgN4ZUqK4SnnfIgEVBLmuh8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ADMIN" (connect: 0.00s, validation: 0.03s, handshake: 0.30s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ADMIN-notifications" at "2026-11-20T00:47:50.0725046Z"
+[Licensing::Module] Licensing Background thread has ended after 0.33s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/ADMIN/OneDrive/Desktop/FlappyBird
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+62718
+-parentPid
+23428
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+32f64288-9fc1-4633-8bc8-f8a18e7460ff
+-analyticsLocalProjectId
+be66197b74ad1f74a94d1896774b9ee4
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+7811904e0d17e0b186ed0c0fd94592644600a7ab
+-cbmMachineId
+ioZpAgN4ZUqK4SnnfIgEVBLmuh8=
+-licensingIpc
+LicenseClient-ADMIN
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ADMIN/OneDrive/Desktop/FlappyBird
+C:/Users/ADMIN/OneDrive/Desktop/FlappyBird
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [21904]  Target information:
+
+Player connection [21904]  * "[IP] 192.168.72.1 [Port] 0 [Flags] 2 [Guid] 1716843138 [EditorId] 1716843138 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JCJEPRQ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21904]  * "[IP] 192.168.98.1 [Port] 0 [Flags] 2 [Guid] 1716843138 [EditorId] 1716843138 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JCJEPRQ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21904]  * "[IP] 192.168.1.244 [Port] 0 [Flags] 2 [Guid] 1716843138 [EditorId] 1716843138 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JCJEPRQ1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21904] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21904] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: d1e130902a52aacf3174ca16dfc3561b
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 47.36 ms, found 5 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ADMIN/OneDrive/Desktop/FlappyBird/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2050 (ID=0x25a9)
+    Vendor:          NVIDIA
+    VRAM:            3979 MB
+    App VRAM Budget: 3382 MB
+    Driver:          31.0.15.3210
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002813 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.390 seconds
+Domain Reload Profiling: 4520ms
+	BeginReloadAssembly (445ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (1525ms)
+		LoadAssemblies (432ms)
+		TypeCache.Refresh (1121ms)
+			TypeCache.ScanAssembly (1089ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2393ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (262ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (1752ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968523295914-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 2056 ms: Could not connect to server
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 3993 ms: Could not connect to server
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.79 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 6.53 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.206 seconds
+Domain Reload Profiling: 5734ms
+	BeginReloadAssembly (682ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (99ms)
+	initialDomainReloadingComplete (417ms)
+	LoadAllAssembliesAndSetupDomain (2306ms)
+		LoadAssemblies (1797ms)
+		TypeCache.Refresh (272ms)
+			TypeCache.ScanAssembly (250ms)
+		AnalyzeDomain (142ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2208ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (633ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7577 unused Assets / (8.3 MB). Loaded Objects now: 8568.
+Memory consumption went from 368.8 MB to 360.5 MB.
+Total: 20.133300 ms (FindLiveObjects: 2.986100 ms CreateObjectMapping: 1.385100 ms MarkObjects: 11.930000 ms  DeleteObjects: 3.230800 ms)
+
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2060 ms: Could not connect to server
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 4100 ms: Could not connect to server
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.90 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.115 seconds
+Domain Reload Profiling: 4682ms
+	BeginReloadAssembly (495ms)
+		DisableScriptedObjects (58ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (931ms)
+		LoadAssemblies (728ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (13ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3116ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (1823ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Refreshing native plugins compatible for Editor in 11.24 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7575 unused Assets / (5.8 MB). Loaded Objects now: 8572.
+Memory consumption went from 357.0 MB to 351.2 MB.
+Total: 23.763700 ms (FindLiveObjects: 3.431200 ms CreateObjectMapping: 2.171100 ms MarkObjects: 12.817200 ms  DeleteObjects: 4.575000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:44.9969278Z
+  Time since last request: 481.18634730000002 seconds.
+  importAddress: GUID: 749b9069dc4742c5bfa5c74644049926 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat - Importer: PreviewImporter
+Importing 'GUID: 749b9069dc4742c5bfa5c74644049926 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 749b9069dc4742c5bfa5c74644049926' -> (Import Result ID: '90ef27fd11364b178bc7cad335a7aed5') in 2.306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4dfe8e49ae0c3c56ccf8f7d6d8adaf76 DependenciesID=f2205dcc5055e8a36e5e35e52590c9bd StaticDependenciesID=73e3ecc7aa83048051fbbc6c629a1ea4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.1853491Z
+  Time since last request: 0.0148859 seconds.
+  importAddress: GUID: dc36b3fdc14f47ebb36fd484a67e268a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset - Importer: PreviewImporter
+Importing 'GUID: dc36b3fdc14f47ebb36fd484a67e268a - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc36b3fdc14f47ebb36fd484a67e268a' -> (Import Result ID: 'ed26340b4734a4e475c23b4d49b3e59c') in 0.115 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aad1dffaf026fbdf4e080ea905fcc335 DependenciesID=77be2a5d76766af6bf7bd5d7ff826850 StaticDependenciesID=f93530d95bd7594d46a42af40618d61d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.3363888Z
+  Time since last request: 0.0066008 seconds.
+  importAddress: GUID: 5dd49b3eacc540408c98eee0de38e0f1 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf - Importer: PreviewImporter
+Importing 'GUID: 5dd49b3eacc540408c98eee0de38e0f1 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5dd49b3eacc540408c98eee0de38e0f1' -> (Import Result ID: '1b03edbbd527e31540081ababaae6bb2') in 0.061 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=474832ae971046ca2e9f7070771d45ee DependenciesID=c7bf607a55013f7ffd8eb2505c8abd97 StaticDependenciesID=8042476ef788874ca2e80c969c2e305b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.4435485Z
+  Time since last request: 0.0133101 seconds.
+  importAddress: GUID: 8b29aaa3eec7468097ff07adfcf29ac9 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat - Importer: PreviewImporter
+Importing 'GUID: 8b29aaa3eec7468097ff07adfcf29ac9 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b29aaa3eec7468097ff07adfcf29ac9' -> (Import Result ID: 'fda798ad574ec8ba9e348129e059bb7c') in 0.180 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3668937b31930212e06358ef1ede5ff5 DependenciesID=55b4eac96f4b41875ca78ea5e404daff StaticDependenciesID=af80da215f45e15f95789fad892ebf1c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.67094Z
+  Time since last request: 0.0083389 seconds.
+  importAddress: GUID: c9f6d0e7bc8541498c9a4799ba184ede - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf - Importer: PreviewImporter
+Importing 'GUID: c9f6d0e7bc8541498c9a4799ba184ede - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c9f6d0e7bc8541498c9a4799ba184ede' -> (Import Result ID: 'e5b8edb342103d24edda418c463a5bcb') in 0.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dc8b4b3feccddea42f7c46b40d6efc8 DependenciesID=bdf03ca49a7e8ff7ec05b3d2244ce021 StaticDependenciesID=ae5261bde54ee2acade497cf80ab1dea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.7721474Z
+  Time since last request: 0.0142907 seconds.
+  importAddress: GUID: 8d176c01131de8f46ad61094e29d79b2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat - Importer: PreviewImporter
+Importing 'GUID: 8d176c01131de8f46ad61094e29d79b2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8d176c01131de8f46ad61094e29d79b2' -> (Import Result ID: '1493ff8a39a31f449be8598261061f44') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4ac62825c9d3668b6fc5fa498a64a6c DependenciesID=bd69a65a0e272c8d60569767e9a17ee4 StaticDependenciesID=6e20fafab2bd487ef736e4eaeafc929d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:48.8473732Z
+  Time since last request: 0.0090628 seconds.
+  importAddress: GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter
+Importing 'GUID: 594ea882c5a793440b60ff72d896021e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 594ea882c5a793440b60ff72d896021e' -> (Import Result ID: '6cbaeb7b11c4a4c2d6337f8485d4ce6a') in 0.598 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61c5272ea840c188eace2ff91fc38c9a DependenciesID=727093fbafdf0e0e049d04753f2380b9 StaticDependenciesID=f2f63c287d1672296332c996f19af34d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:49.4783279Z
+  Time since last request: 0.0144013 seconds.
+  importAddress: GUID: 6522f30e342599e4e9dd4cc2cc03c830 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat - Importer: PreviewImporter
+Importing 'GUID: 6522f30e342599e4e9dd4cc2cc03c830 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6522f30e342599e4e9dd4cc2cc03c830' -> (Import Result ID: '9fe5e75fd74483ec37f699d1b3f8c2f8') in 0.307 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6519a780d96f63c252c3a680c89b7c9d DependenciesID=cf3c76d9ab453398eff01c5b6ef0123d StaticDependenciesID=7b917ef1ec56f48d48b801dce1d4136f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:49.8496134Z
+  Time since last request: 0.0150244 seconds.
+  importAddress: GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: PreviewImporter
+Importing 'GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e3265ab4bf004d28a9537516768c1c75' -> (Import Result ID: '877d299c80c6580af7b29876616a7767') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44aa50e8480703d8e4ddf5b900d0f513 DependenciesID=321c04bc89719ec764a2f87175f26124 StaticDependenciesID=6f85f1847d8c60c6b63e91f03e4d0e10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:50.0036227Z
+  Time since last request: 0.0155437 seconds.
+  importAddress: GUID: 3b5cc91c3bf8cf74391252247f52fb59 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat - Importer: PreviewImporter
+Importing 'GUID: 3b5cc91c3bf8cf74391252247f52fb59 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3b5cc91c3bf8cf74391252247f52fb59' -> (Import Result ID: '42abd0fc33d0b86857a0a5b240906532') in 0.704 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa37de8871f2dd1dfa6219baa14ed1b4 DependenciesID=ef12d41ed39ba67e0668b961b94b6927 StaticDependenciesID=a487a70c60a023fa2698b65a40ca47ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:50.9333774Z
+  Time since last request: 0.0235774 seconds.
+  importAddress: GUID: bc6da4580f5514e458fe5def87e138be - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat - Importer: PreviewImporter
+Importing 'GUID: bc6da4580f5514e458fe5def87e138be - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc6da4580f5514e458fe5def87e138be' -> (Import Result ID: '822fbfb365c580db7ec52a3210a5ed5a') in 0.061 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f1ef892eada71547393f8fd7e0e2f5b DependenciesID=4930f2b5b2660a10426f1dc4ff81f62e StaticDependenciesID=c05699c9a324317d1aa95655c61d8639 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:51.3310891Z
+  Time since last request: 0.0101069 seconds.
+  importAddress: GUID: 79459efec17a4d00a321bdcc27bbc385 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat - Importer: PreviewImporter
+Importing 'GUID: 79459efec17a4d00a321bdcc27bbc385 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 79459efec17a4d00a321bdcc27bbc385' -> (Import Result ID: '8244525e2d5e1ff19053e696a8b5f21a') in 0.249 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb0927117ba8b76594e838e7aed36139 DependenciesID=28ff5c836acd5f2184af4deda7a024d0 StaticDependenciesID=fc9629f01f55eb495942587f8f201ac6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:51.6243241Z
+  Time since last request: 0.0127721 seconds.
+  importAddress: GUID: 90722b8bd74d9aa49958562aff7bdf76 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat - Importer: PreviewImporter
+Importing 'GUID: 90722b8bd74d9aa49958562aff7bdf76 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - URP.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 90722b8bd74d9aa49958562aff7bdf76' -> (Import Result ID: 'e0829d47329a861209e0eb4201134210') in 2.248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=280733ffbd5da1f532155131b3188743 DependenciesID=63ef0dd634d84687e16f49b5e1fc7761 StaticDependenciesID=f45f2242bdb4ecf94f25cf624ed7c66c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:54.0319828Z
+  Time since last request: 0.0092096 seconds.
+  importAddress: GUID: 6a1143ee683302f4aa628c052723efc1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat - Importer: PreviewImporter
+Importing 'GUID: 6a1143ee683302f4aa628c052723efc1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6a1143ee683302f4aa628c052723efc1' -> (Import Result ID: 'e304aebe652c696aa9df40a5bdfa08ea') in 0.264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6dbd4a3d992d7d0e22cde531199dabe2 DependenciesID=cce452c898570e023d41cbe2d6f998f1 StaticDependenciesID=cb75babd3a163ded186ab0486b68f79c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:54.4154008Z
+  Time since last request: 0.0240022 seconds.
+  importAddress: GUID: f2dcf029949142e28b974630369c8b4e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat - Importer: PreviewImporter
+Importing 'GUID: f2dcf029949142e28b974630369c8b4e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f2dcf029949142e28b974630369c8b4e' -> (Import Result ID: '0b4495ca69139143649da40bc1b3f93b') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b32d546fa02880f33b264939a4e21b8 DependenciesID=58125efef80abdaaf5c98f35f59deadd StaticDependenciesID=f718eaeaac4bcb3c60ab292b0c3a1584 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:49:54.6432482Z
+  Time since last request: 0.0121322 seconds.
+  importAddress: GUID: cbd3e1cc4ae141c42a30e33b4d666a61 - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: cbd3e1cc4ae141c42a30e33b4d666a61 - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cbd3e1cc4ae141c42a30e33b4d666a61' -> (Import Result ID: '029dab3832e5df433e47248a60947cb3') in 6.072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59cbdda9bcdf2660f5e702f4fb330128 DependenciesID=9451ac8ba0dfcd120356faafb0d8000a StaticDependenciesID=2fb4e57edb9e25d0b9fd4fe8f6131129 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:00.9454754Z
+  Time since last request: 0.0138025 seconds.
+  importAddress: GUID: c9adb1f542a93ae489bacfeae21e8394 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset - Importer: PreviewImporter
+Importing 'GUID: c9adb1f542a93ae489bacfeae21e8394 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c9adb1f542a93ae489bacfeae21e8394' -> (Import Result ID: '1068fddabce95d7fcf2e0b6c984d6fd9') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12476fcc276191751d42b558cc15c36c DependenciesID=2574a949d9644b6dcc7320c2619cd703 StaticDependenciesID=7b897dccdee23396ab06b45a66bbc6b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:01.0956585Z
+  Time since last request: 0.0116958 seconds.
+  importAddress: GUID: 42df1c7856584b6b8db9a509b6b10074 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat - Importer: PreviewImporter
+Importing 'GUID: 42df1c7856584b6b8db9a509b6b10074 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 42df1c7856584b6b8db9a509b6b10074' -> (Import Result ID: 'ba0328689e1b52b6592c30cdf4e3e86f') in 0.198 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0cb65e6093f14fad4bcf834403aaf2b4 DependenciesID=68191ed7dad5ff5238466488753bf0a7 StaticDependenciesID=7845d1c11a2a78e328e19ec2dd3d16d1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:01.3738015Z
+  Time since last request: 0.0108765 seconds.
+  importAddress: GUID: a3d800b099a06e0478fb790c5e79057a - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a3d800b099a06e0478fb790c5e79057a - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a3d800b099a06e0478fb790c5e79057a' -> (Import Result ID: 'f7abd54a9b4f553f369d4a82bf3a5367') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1146e61534c3c2a9442ec4aa6960492 DependenciesID=0c79211f15efd64c7da650d441ccb064 StaticDependenciesID=895a3b264c3d61e2f03c0eecf6108d12 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:01.4884327Z
+  Time since last request: 0.0077946 seconds.
+  importAddress: GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: def488a52add6574d9f295a507032cb8' -> (Import Result ID: 'b7900f299fc87226dcfa35b00355b26a') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=563ea015fe7a08a49ed49263ea0653ff DependenciesID=8b9ebbab30640e0833c4d6356e816406 StaticDependenciesID=1a8eeb76a29f3984d781edf69690eced 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:01.5865137Z
+  Time since last request: 0.0106395 seconds.
+  importAddress: GUID: 2476a2d151e824143af40dce1fc93a12 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Unlit Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 2476a2d151e824143af40dce1fc93a12 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Unlit Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2476a2d151e824143af40dce1fc93a12' -> (Import Result ID: 'e2b52bbc891697e7adbfe1ded1d7ac88') in 2.353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0ef7707ba3c482224255b2e0960a268 DependenciesID=1da27a6cbfbdc1d6eb86ff47fe65264b StaticDependenciesID=369891e1ff80da8d42e6ebd5e2975410 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:03.9914824Z
+  Time since last request: 0.0144773 seconds.
+  importAddress: GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter
+Importing 'GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9875a245ac49007498213638a307faa1' -> (Import Result ID: '5aa26001c163f1a937c70157ab16c92b') in 0.142 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e45b240e5cb653da1b252fefbeede348 DependenciesID=2b40ba36d5bbed02923e27adedb650c4 StaticDependenciesID=204cb88cea15515c0571381da2616947 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:04.2812347Z
+  Time since last request: 0.0107068 seconds.
+  importAddress: GUID: 5a4a765e921b8554eb959f7cf697b3be - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 5a4a765e921b8554eb959f7cf697b3be - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a4a765e921b8554eb959f7cf697b3be' -> (Import Result ID: '285637ca52eddfd0e986997b2b9957d7') in 0.734 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=871fdc7169a51e81fb4de63f1574c3db DependenciesID=e5c2d32870648efcced79c8f64e11c27 StaticDependenciesID=911c73a1d12fdc3e7a1b513bd74bf912 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:05.1873433Z
+  Time since last request: 0.013818 seconds.
+  importAddress: GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9920c1f1781549a46ba081a2a15a16ec' -> (Import Result ID: '802fc9ce69e8b34a0c100828e5d611ad') in 1.856 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3da14122224a2d5d509d2b3bf506bcb DependenciesID=7c33e8af8c472437f7e87f81ed48c9df StaticDependenciesID=c00b2d27ca3cdb63d2af335cd38a2ded 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:07.1659236Z
+  Time since last request: 0.0135726 seconds.
+  importAddress: GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: PreviewImporter
+Importing 'GUID: 22262639920f43d6be32430e4e58350d - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 22262639920f43d6be32430e4e58350d' -> (Import Result ID: '6c8dce1911d4739064dce81f0a53697e') in 0.108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5789a7ac21f7d030db1d08121d5d6b81 DependenciesID=d0cb4164ef6bf9641ca9e0b3a22d22a4 StaticDependenciesID=62337763cc1a0869bbadbe4e0c43d223 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:07.3640973Z
+  Time since last request: 0.0119213 seconds.
+  importAddress: GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter
+Importing 'GUID: b51db210fe78df745a372851b3db949e - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b51db210fe78df745a372851b3db949e' -> (Import Result ID: 'f451a19c831a84bf43b5ba6217447428') in 0.083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9d97cf75954d8f7c7d40b3e5ebcb2de DependenciesID=603ba6cdb5f99ca7fbe4606b5320a97a StaticDependenciesID=d46efb677545bbc6272b2ab27ad6d878 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:07.595677Z
+  Time since last request: 0.0263665 seconds.
+  importAddress: GUID: f629c6e43dba4bf38cb74d8860150664 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat - Importer: PreviewImporter
+Importing 'GUID: f629c6e43dba4bf38cb74d8860150664 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f629c6e43dba4bf38cb74d8860150664' -> (Import Result ID: '6db18833b6e28f15e6ea0ea38deabeea') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e16925177646a78c44f6cdc76eba8afc DependenciesID=c1b850249d67c51b8fd77fe15c9d8e66 StaticDependenciesID=441078a619ee35f96d38bc7b0dd77699 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:08.0968387Z
+  Time since last request: 0.0216649 seconds.
+  importAddress: GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 24a73dccd7b6fad4798be282f96a21f4 - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 24a73dccd7b6fad4798be282f96a21f4' -> (Import Result ID: 'c8b51221e9757776b5a3c8010b6d74c0') in 2.567 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdfc5c5744c046e25256c48814b5577c DependenciesID=5a82806bdd030bc08f63b8d5763073c1 StaticDependenciesID=1f1296a79334a0da0159e543b000c5e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:11.1495092Z
+  Time since last request: 0.0160105 seconds.
+  importAddress: GUID: e6b9b44320f4448d9d5e0ee634259966 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat - Importer: PreviewImporter
+Importing 'GUID: e6b9b44320f4448d9d5e0ee634259966 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e6b9b44320f4448d9d5e0ee634259966' -> (Import Result ID: 'cd3744dc351d56ce77c546ecc70ed794') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22d2d16b0b9903634547ef6a28d20bf3 DependenciesID=a555e08900f9bf2ce2b3cb9c0f624e49 StaticDependenciesID=a43b2d399f97f64e26695892662437ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:11.3551905Z
+  Time since last request: 0.0174284 seconds.
+  importAddress: GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc3def193b270c649b041063a70a1a1f' -> (Import Result ID: '0d47a4a39e01d43eba6b03cb64b291b2') in 2.843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ec5b39975e1b93a373e1b27a41f470f DependenciesID=c6bfbc8eb3ea24c2cdc06cd3ca4afa69 StaticDependenciesID=fb831a35606becb6dbbf7e992d9efd43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:14.5344151Z
+  Time since last request: 0.0120983 seconds.
+  importAddress: GUID: b697f6a938056384e968ccf6527dac83 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat - Importer: PreviewImporter
+Importing 'GUID: b697f6a938056384e968ccf6527dac83 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b697f6a938056384e968ccf6527dac83' -> (Import Result ID: '4a7e7cdbe6bbb0d6ec72249fd7784b51') in 0.047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e76659c6ed065a8cb4519465f70fe5f DependenciesID=443b5efabe4516ceb4f6a402fdd5574e StaticDependenciesID=ab284bafad024c398134d8f768d480a7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:14.8706614Z
+  Time since last request: 0.0103878 seconds.
+  importAddress: GUID: 124c112a6e8f1a54e8b0870e881b56d8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 124c112a6e8f1a54e8b0870e881b56d8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 124c112a6e8f1a54e8b0870e881b56d8' -> (Import Result ID: '0e241da18a0cc79d655033458faf2a20') in 2.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1275bfd360e77f80f0312bc1f09e6345 DependenciesID=a4542746ad4876161c59155cb95ba0f4 StaticDependenciesID=48daca995f9109c5debeffa987b07525 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:17.0921489Z
+  Time since last request: 0.011789 seconds.
+  importAddress: GUID: f63d574838ccfb44f84acc05fed0af48 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph - Importer: PreviewImporter
+Importing 'GUID: f63d574838ccfb44f84acc05fed0af48 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f63d574838ccfb44f84acc05fed0af48' -> (Import Result ID: 'f47a56aab5f0a66153170448905f7602') in 0.168 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=572698fac977cdce576d05655ca598fd DependenciesID=9ea511655acefc592e931d859116b150 StaticDependenciesID=f59d234fe285f776e928c879d7fa9830 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:17.3554353Z
+  Time since last request: 0.0069315 seconds.
+  importAddress: GUID: 4459fff084dd84526ab8fd5082d2eacb - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat - Importer: PreviewImporter
+Importing 'GUID: 4459fff084dd84526ab8fd5082d2eacb - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4459fff084dd84526ab8fd5082d2eacb' -> (Import Result ID: '6f47da0b49f2d8c88a7c740b31668e5d') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b906890a9c667eff693f96d638e0cabc DependenciesID=02f13fe419574280d6061237526ced0d StaticDependenciesID=2f458607d0e9971c08a708ea0957bad8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:17.4421549Z
+  Time since last request: 0.0139468 seconds.
+  importAddress: GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8f586378b4e144a9851e7b34d9b748ee' -> (Import Result ID: '9977a8121ef28c35a015a435dda17c98') in 0.204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d861b2252f70c3d132ade42a5aaf8cac DependenciesID=ecd1a90a3e44896513bb36c13d265e4e StaticDependenciesID=903be5cf52d4a80c276d32951420acb1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:17.829576Z
+  Time since last request: 0.011148 seconds.
+  importAddress: GUID: 9d4e8ca8c5046914c87ca6ccef140dac - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Meter.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9d4e8ca8c5046914c87ca6ccef140dac - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/UGUI Canvas Meter.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9d4e8ca8c5046914c87ca6ccef140dac' -> (Import Result ID: '9286cc0e9249fcf27939a44c60094b5a') in 0.920 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7339f594d47710b806a48bad1ab410ca DependenciesID=0a82b09cb84d65ea8b809433cfe0a6f9 StaticDependenciesID=7c1c2655d58235ce3d7781afa28411bd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:18.8279391Z
+  Time since last request: 0.0108042 seconds.
+  importAddress: GUID: 4beb055f07aaff244873dec698d0363e - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf - Importer: PreviewImporter
+Importing 'GUID: 4beb055f07aaff244873dec698d0363e - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4beb055f07aaff244873dec698d0363e' -> (Import Result ID: '24b6b0ed15641a58f18d078c6527db61') in 0.047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4553375391dabdb9789b748eff078fe9 DependenciesID=fd8dd9b4ae7251cc675514b911cb2ba3 StaticDependenciesID=6533cd924303e2315bded47d1a830ce2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:18.9306187Z
+  Time since last request: 0.0119196 seconds.
+  importAddress: GUID: 3e01bbae25716b24ea9da11102b44902 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKFullTemplate.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 3e01bbae25716b24ea9da11102b44902 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKFullTemplate.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e01bbae25716b24ea9da11102b44902' -> (Import Result ID: '0b1d665b3e9f78e6c083a5fd76eff8c6') in 2.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8aa21d857c853835170f60ec4df5dc2f DependenciesID=f89987ff021d07ced0fc342525501927 StaticDependenciesID=76478f789a9029f875cfccf9e6d615c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:20.9801981Z
+  Time since last request: 0.0062189 seconds.
+  importAddress: GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: PreviewImporter
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '5caa36792d2b35d2f20d8e7c665dc350') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de3b9b5f3064ade73deacbd671395302 DependenciesID=e3c0aa314ed92b35d56a57c5ba7d66e1 StaticDependenciesID=5d966b296043ce5727d4c426c36d789c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.0376421Z
+  Time since last request: 0.0058925 seconds.
+  importAddress: GUID: 967f61bb1e3e28645a39e0cb647cc79e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat - Importer: PreviewImporter
+Importing 'GUID: 967f61bb1e3e28645a39e0cb647cc79e - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Outline.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 967f61bb1e3e28645a39e0cb647cc79e' -> (Import Result ID: '3abdbfb3e7f1f0a8bd8e7d86d838ace7') in 0.056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b3afcfe37747eeb8478a61bb52dc2c5 DependenciesID=a222bd293dacda0730995ece0875f322 StaticDependenciesID=8a9aa37007fd8883d58798961bf85021 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.1439321Z
+  Time since last request: 0.0088998 seconds.
+  importAddress: GUID: f96821bbefeea864b9b418af4b8615ac - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/White.mat - Importer: PreviewImporter
+Importing 'GUID: f96821bbefeea864b9b418af4b8615ac - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/White.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f96821bbefeea864b9b418af4b8615ac' -> (Import Result ID: 'c34c1a78bb0a497a35d30398df8c9edf') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fdbb122d0634d52a570ebb3d0d75fd10 DependenciesID=209cf7d0637127c0a4b28cf689b96435 StaticDependenciesID=c7b8a24d397c9ea0784080f166ea4b71 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.2502756Z
+  Time since last request: 0.0073993 seconds.
+  importAddress: GUID: d7288f66e4fb0634c9afef98c31b722a - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: d7288f66e4fb0634c9afef98c31b722a - Path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d7288f66e4fb0634c9afef98c31b722a' -> (Import Result ID: '32e2b08bb69eec3d40e3774daf172f6b') in 0.483 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62267bad5730deb1ee787ef0cc7c8be6 DependenciesID=d2abb0ad2631d99075caa68bb10f58b3 StaticDependenciesID=0b6f931a97e97fb2c0b33ab4fa47293f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.7764299Z
+  Time since last request: 0.0066773 seconds.
+  importAddress: GUID: 9dfc825aed78fcd4ba02077103263b40 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 9dfc825aed78fcd4ba02077103263b40 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9dfc825aed78fcd4ba02077103263b40' -> (Import Result ID: '0b9aee587092ecad69ebfc1a96266ff7') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3209f31167cd27f2e47bdefc3a6bd50 DependenciesID=133199c32e7deb75ce141e73b46089b8 StaticDependenciesID=452f62c3b89722e6b2be24ece52e8490 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.8541472Z
+  Time since last request: 0.0091868 seconds.
+  importAddress: GUID: 8a2b9e2a607dd2143b58c44bc32410b4 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF - Importer: PreviewImporter
+Importing 'GUID: 8a2b9e2a607dd2143b58c44bc32410b4 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8a2b9e2a607dd2143b58c44bc32410b4' -> (Import Result ID: '2410c8258525aa63f9c7c78914b969f5') in 0.047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c3dc21006eea6f0676cd505a372f9c0 DependenciesID=b4357a6077fbb784b1f023545c8e5a85 StaticDependenciesID=9e7d8a8f1e8394f4da6c7107fbe7ca78 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:21.9573788Z
+  Time since last request: 0.0124211 seconds.
+  importAddress: GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a97c105638bdf8b4a8650670310a4cd3' -> (Import Result ID: '362bb01725c816d0b557598e97de59f5') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c41a7e403ac8305c88b635818c3596db DependenciesID=a1a7c8ad2b4070a151ae11fad7dd8146 StaticDependenciesID=370a142942de7513da01291afb6ecdd4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.0270251Z
+  Time since last request: 0.0098504 seconds.
+  importAddress: GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15d0c3709176029428a0da2f8cecf0b5' -> (Import Result ID: '2c83ef8fdea4f371d2c7c277bd8ce6ff') in 0.049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=237fd6c931d9f961c02212f7c7cd7ec0 DependenciesID=4a1417c3e19f4e2bcacd7181981a0668 StaticDependenciesID=7182571488c543bf424664751821f487 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.1140082Z
+  Time since last request: 0.0109085 seconds.
+  importAddress: GUID: 997a43b767814dd0a7642ec9b78cba41 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf - Importer: PreviewImporter
+Importing 'GUID: 997a43b767814dd0a7642ec9b78cba41 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 997a43b767814dd0a7642ec9b78cba41' -> (Import Result ID: 'f284d6491b3f10fd9d8bf233aa1bcd63') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dab98aca1c496f34ec017d8a81b6ee92 DependenciesID=614c2de0ee4d243246e02f29c5de49a2 StaticDependenciesID=40d857685fa8c9b3802fa1a91c23e176 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.3460671Z
+  Time since last request: 0.0110557 seconds.
+  importAddress: GUID: 9ad269c99dcf42b7aedefd83dd5a7b9d - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat - Importer: PreviewImporter
+Importing 'GUID: 9ad269c99dcf42b7aedefd83dd5a7b9d - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9ad269c99dcf42b7aedefd83dd5a7b9d' -> (Import Result ID: '737ceb839175b66bbd06dec4fcc7d4e3') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d55578e803ecfe32af4ce5683b4cd30 DependenciesID=b2a4157fdc5fe8333052770ab30e59da StaticDependenciesID=c8173507e16485cde70ea5502a35d4b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.4435991Z
+  Time since last request: 0.0064299 seconds.
+  importAddress: GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: PreviewImporter
+Importing 'GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a00013af81304728b2be1f4309ee2433' -> (Import Result ID: 'be32cb1b548648a7aa777bc2a583fc8e') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c6726641cfffc331796cccefc9eb81f DependenciesID=f26a3cf0d5da0bfc0d5e6870f6b08ffc StaticDependenciesID=fa71c3383a669d706e3b69f407142b1d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.5137075Z
+  Time since last request: 0.0149768 seconds.
+  importAddress: GUID: 2ddca8f46aa0838419d568affb0ca6b4 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat - Importer: PreviewImporter
+Importing 'GUID: 2ddca8f46aa0838419d568affb0ca6b4 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - HDRP Unlit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2ddca8f46aa0838419d568affb0ca6b4' -> (Import Result ID: '0456b2d277c8639ca1d88370f841a681') in 0.067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43fc84dbb49b1f2e547ef807c3663fb9 DependenciesID=35756d47c6ee9a62bf3d57ca73e921bb StaticDependenciesID=ee7dcc7b785ee778317ee80a0a873595 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.6995975Z
+  Time since last request: 0.0114062 seconds.
+  importAddress: GUID: 0161d805a3764c089bef00bfe00793f5 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 0161d805a3764c089bef00bfe00793f5 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0161d805a3764c089bef00bfe00793f5' -> (Import Result ID: '7b907bac994bceb9933df5088f381827') in 0.100 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31e8a628fc802ea2d82c3cbc4a9b9b0a DependenciesID=916e9dafcb70fb9859aa68d355572828 StaticDependenciesID=ab3fe30673c823ff5b14675e54700d96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.8514741Z
+  Time since last request: 0.0108904 seconds.
+  importAddress: GUID: 71529b88994c1a341b22bc57c038674a - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat - Importer: PreviewImporter
+Importing 'GUID: 71529b88994c1a341b22bc57c038674a - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71529b88994c1a341b22bc57c038674a' -> (Import Result ID: '30f4df1ca4f342c248b2bf8408839b24') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83ba9a58b1d5931e2acb3aa32ad1db2e DependenciesID=27325a8bb90825701e01a75a8ab21c01 StaticDependenciesID=b947e2e7a1cb33f33024723904cc224c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:22.9994499Z
+  Time since last request: 0.0079756 seconds.
+  importAddress: GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2' -> (Import Result ID: '16129d8335c220354cc073ad0ef4b89a') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c40f41cbbdbb9659753b0097e73913e DependenciesID=c761874ab90a264ada2f82049f4a371e StaticDependenciesID=6b7322b368a5e09606619fedb7f86860 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.1865457Z
+  Time since last request: 0.0098899 seconds.
+  importAddress: GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: PreviewImporter
+Importing 'GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ca2ed216f98028c4dae6c5224a952b3c' -> (Import Result ID: '2717b7cc71246fae673f384f6eb28b48') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e84d343a8b808a4bda78ab9cd837d293 DependenciesID=99259ddf75bfbbffdb505aa7b053fab3 StaticDependenciesID=4acad35b0f8d7c046bd37f7ed3b32e2d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.2400382Z
+  Time since last request: 0.0099012 seconds.
+  importAddress: GUID: 947a44964e53bf0448ff698b2a2219c0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat - Importer: PreviewImporter
+Importing 'GUID: 947a44964e53bf0448ff698b2a2219c0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 947a44964e53bf0448ff698b2a2219c0' -> (Import Result ID: '631c7043a6d8e8bb5ad500e8592efa30') in 0.116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9247a0f0c666015c2e90dbaf1134b96 DependenciesID=175de25a45306fdbc7dc8c809751f6d4 StaticDependenciesID=bf4a58b4c6d8a51e284e6b713b499b7a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.4074453Z
+  Time since last request: 0.0150702 seconds.
+  importAddress: GUID: e73a58f6e2794ae7b1b7e50b7fb811b0 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat - Importer: PreviewImporter
+Importing 'GUID: e73a58f6e2794ae7b1b7e50b7fb811b0 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e73a58f6e2794ae7b1b7e50b7fb811b0' -> (Import Result ID: '0705abfdea5459f89c6ef92931ffe71a') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36f5a8320399c0f9e46c423a2eb7301b DependenciesID=ebe1e6d34693ea3ba89314120e869642 StaticDependenciesID=d0942cdc377008b7111875ba81f772c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.4786886Z
+  Time since last request: 0.0094976 seconds.
+  importAddress: GUID: e6b276ec991f467aa14ef1f3cc665993 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat - Importer: PreviewImporter
+Importing 'GUID: e6b276ec991f467aa14ef1f3cc665993 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e6b276ec991f467aa14ef1f3cc665993' -> (Import Result ID: 'b8d50c36f9f08bf359002ef0b6d07042') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e10dec4d63088f89ae13e49133a7e9e DependenciesID=467ce98955a165c48f41fafadcb7809c StaticDependenciesID=fd56c00697f3f2031fecb39c86494dff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.5572948Z
+  Time since last request: 0.0136966 seconds.
+  importAddress: GUID: 28638862ea1084726a3511cd325fc53d - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat - Importer: PreviewImporter
+Importing 'GUID: 28638862ea1084726a3511cd325fc53d - Path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 28638862ea1084726a3511cd325fc53d' -> (Import Result ID: '07ea0e9a96d27aa448ecd76ed556ad9f') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88fd035f36f9ea8935c62c22962a2c68 DependenciesID=071e40a5293e66cc60177572a45e8110 StaticDependenciesID=ec358fc2f91a3cc03fee2e368b7071a2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:23.641996Z
+  Time since last request: 0.0130631 seconds.
+  importAddress: GUID: d75b8f41e959450c84ac6e967084d3e1 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat - Importer: PreviewImporter
+Importing 'GUID: d75b8f41e959450c84ac6e967084d3e1 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d75b8f41e959450c84ac6e967084d3e1' -> (Import Result ID: '12b39e6cbf2c4ee7f93f207cabcc3fe4') in 0.323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0cb1456a872ea97b4ca7618b63c08ad6 DependenciesID=c5d802ef53ad8558fe80f560512e518d StaticDependenciesID=1b810121cc0825ccbcb81ee6b86887c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:24.1612231Z
+  Time since last request: 0.0136529 seconds.
+  importAddress: GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 125cb55b44b24c4393181402bc6200e6 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 125cb55b44b24c4393181402bc6200e6' -> (Import Result ID: 'd46e30f4fdea64ce53c7baa9a4cff0df') in 0.094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e3fe8e7faf87802082835e6dc68143c DependenciesID=97b43f692c1c84f2bbe78dc758ffe887 StaticDependenciesID=48d2b4ea18bde02ddab1176a1e1219e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:24.3170325Z
+  Time since last request: 0.0125862 seconds.
+  importAddress: GUID: 0738648e2f2f84b489a2f0076b69e30a - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKBasicTemplate.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 0738648e2f2f84b489a2f0076b69e30a - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/UITKBasicTemplate.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0738648e2f2f84b489a2f0076b69e30a' -> (Import Result ID: '634d8161ed088e9103bad0530d8f56fb') in 1.816 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=332c778b15b9da534be4e31b91b3fd6b DependenciesID=0f37cd223e96dad662c33aad9e692b5d StaticDependenciesID=03657870fd85142f05ba676a8b4a3a49 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:26.2154173Z
+  Time since last request: 0.0192691 seconds.
+  importAddress: GUID: b246c4190f4e46ec9352fe15a7b09ce0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat - Importer: PreviewImporter
+Importing 'GUID: b246c4190f4e46ec9352fe15a7b09ce0 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b246c4190f4e46ec9352fe15a7b09ce0' -> (Import Result ID: '28d16e7a7c85574f8725d4d97c2def84') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=887c3b49e176727c4f143bd2c9030c8d DependenciesID=921c6eb88cbbfbf506728369ef6ff626 StaticDependenciesID=dc0e1bdf540a1c7a38876a178343c432 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:26.5092356Z
+  Time since last request: 0.0193669 seconds.
+  importAddress: GUID: aadd5a709a48466c887296bb5b1b8110 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat - Importer: PreviewImporter
+Importing 'GUID: aadd5a709a48466c887296bb5b1b8110 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: aadd5a709a48466c887296bb5b1b8110' -> (Import Result ID: 'b2aeab6995e32884b9c62182cfbf1b0d') in 0.100 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac078e29bbfb00ab16e783024e09987d DependenciesID=2d261108e6a515cc7586b7d7fc9cf2c3 StaticDependenciesID=c0ad1f2c885615bc3351612bd3488174 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:27.0093471Z
+  Time since last request: 0.0138912 seconds.
+  importAddress: GUID: f4e195ac1e204eff960149d1cb34e18c - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat - Importer: PreviewImporter
+Importing 'GUID: f4e195ac1e204eff960149d1cb34e18c - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4e195ac1e204eff960149d1cb34e18c' -> (Import Result ID: 'bebd9a62794461d2e902692bb944df73') in 0.096 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfb246bbe26cc7179e38e11cc7f8d9d3 DependenciesID=096d2a4e488baa289ebf40489925e5ff StaticDependenciesID=ceda1c6164c17857e66251dd4b03a9d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:27.2388062Z
+  Time since last request: 0.0146037 seconds.
+  importAddress: GUID: c719e38f25a9480abd2480ab621a2949 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat - Importer: PreviewImporter
+Importing 'GUID: c719e38f25a9480abd2480ab621a2949 - Path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c719e38f25a9480abd2480ab621a2949' -> (Import Result ID: 'f81d3fccb02e9925f66c33f54748815b') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8438b28e6d71053739f40975acdac3ab DependenciesID=c7b9b738127fc28f3b1d5307c3bf9c4a StaticDependenciesID=87ab0622a54f9e3a8ac5a37655930e8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:27.591205Z
+  Time since last request: 0.0095053 seconds.
+  importAddress: GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: PreviewImporter
+Importing 'GUID: 5302535af1044152a457ed104f1f4b91 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5302535af1044152a457ed104f1f4b91' -> (Import Result ID: '71c4c887d6887452c52661f54a8a9406') in 0.202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eca8add19d2bf724baafdacfc94f9c1a DependenciesID=f8bcbf7ce1d4d524ba076a679ace4123 StaticDependenciesID=aaa70bab68e4d72db3458c6cb3e8b954 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:27.85968Z
+  Time since last request: 0.0100537 seconds.
+  importAddress: GUID: f4eec857a4fdf2f43be0e9f3d1a984e7 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf - Importer: PreviewImporter
+Importing 'GUID: f4eec857a4fdf2f43be0e9f3d1a984e7 - Path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4eec857a4fdf2f43be0e9f3d1a984e7' -> (Import Result ID: '1b68424afb61328e0b4c6557e5576b50') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eeb8a5488950d2643c44e60b7a04711d DependenciesID=0e36a94baf8e8865cf0e5c2ca850a299 StaticDependenciesID=97725db7b03e2f433c0931b2fbc6a3f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:50:27.9206755Z
+  Time since last request: 0.0068134 seconds.
+  importAddress: GUID: 1a207e3bee00db44b940e6f362a8e148 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 1a207e3bee00db44b940e6f362a8e148 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1a207e3bee00db44b940e6f362a8e148' -> (Import Result ID: '6adc117a28b464f9337510567e47b890') in 1.875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=096a45738e5763728a701a276fe9f474 DependenciesID=7d5ee65f107aaf1a7fd94ce40d7c8f7f StaticDependenciesID=d0a15f9c6e9ab69bb3e368122b6011c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:52:05.2444772Z
+  Time since last request: 95.17319089999999 seconds.
+  importAddress: GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a60aab39b44f274ca6c995f82cffa01' -> (Import Result ID: '892c15d699ddc699b91faa7dc525d8e6') in 0.853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0eba34024ae9bfce016c386eae975e0 DependenciesID=e8cb777719db7407fed7ce67eac06c07 StaticDependenciesID=04e915bb6d569e2656a36007aaa859db 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:52:06.1553385Z
+  Time since last request: 0.0074428 seconds.
+  importAddress: GUID: e2d639fe1c78cef4db0c29ed6200dc50 - Path: Assets/Scenes/_gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e2d639fe1c78cef4db0c29ed6200dc50 - Path: Assets/Scenes/_gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e2d639fe1c78cef4db0c29ed6200dc50' -> (Import Result ID: '7428f1b11b6c2c01f83022adc9433aba') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3cc32c76926e37be187114fb35af722 DependenciesID=29c820ef82d07fdc4495eccb609d0e79 StaticDependenciesID=b603853158d21398b3bb96d6c503b4f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 9.17 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.9 MB). Loaded Objects now: 8718.
+Memory consumption went from 356.3 MB to 353.3 MB.
+Total: 333.922300 ms (FindLiveObjects: 13.548600 ms CreateObjectMapping: 3.376200 ms MarkObjects: 276.461900 ms  DeleteObjects: 34.911100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:52:16.4043409Z
+  Time since last request: 10.1912108 seconds.
+  importAddress: GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 782d90af9643d7746bba3fc40a804ff2' -> (Import Result ID: '12b992b80a5fc0f9c5b563bde72a0e81') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b476493cd4dcb519e5fd4eff9e750b61 DependenciesID=ddcc25a54e1269d465d38ef66308f86b StaticDependenciesID=5e55dc1408a485c30110b19da7ff4f75 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T00:52:16.7713074Z
+  Time since last request: 0.2797508 seconds.
+  importAddress: GUID: 842b8f89cbea16d488b0e9694140f560 - Path: Assets/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 842b8f89cbea16d488b0e9694140f560 - Path: Assets/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 842b8f89cbea16d488b0e9694140f560' -> (Import Result ID: '4f56ec63cac05fd18f7f2fc022a65a1f') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd52875f5bd453df880502bca59d96ff DependenciesID=9edfb91a101c09d1c9f1e6a8cbc30a03 StaticDependenciesID=f44eca1689dc7a3ffbf97d5f9a566619 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 23.24 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (7.2 MB). Loaded Objects now: 8732.
+Memory consumption went from 367.7 MB to 360.4 MB.
+Total: 472.988900 ms (FindLiveObjects: 194.495500 ms CreateObjectMapping: 2.535200 ms MarkObjects: 267.641800 ms  DeleteObjects: 7.229500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:11:02.8900551Z
+  Time since last request: 1126.01966519999996 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: 'f9fd4bb536a54e3daae721504fdc22a3') in 0.091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47dbed486359bbfef83b6fdd9f59c2d0 DependenciesID=8dc74cca5538cef6f9d83bcb38f609a3 StaticDependenciesID=fd0fae7bd7c3c7bb4f6373f46eb37a45 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 7.06 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.803 seconds
+Domain Reload Profiling: 11946ms
+	BeginReloadAssembly (3930ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (840ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1172ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (301ms)
+	LoadAllAssembliesAndSetupDomain (5836ms)
+		LoadAssemblies (4582ms)
+		TypeCache.Refresh (154ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (836ms)
+			BuildScriptInfoCaches (784ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1808ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (15ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (359ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 38.72 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (4.7 MB). Loaded Objects now: 8660.
+Memory consumption went from 371.9 MB to 367.2 MB.
+Total: 68.360200 ms (FindLiveObjects: 6.912800 ms CreateObjectMapping: 2.271300 ms MarkObjects: 45.298800 ms  DeleteObjects: 12.714300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:15.5549918Z
+  Time since last request: 72.4964523 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.012 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:15.7424717Z
+  Time since last request: 0.1201937 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.009 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:15.8263886Z
+  Time since last request: 0.0044545 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:15.8793755Z
+  Time since last request: 0.0146104 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:15.9501162Z
+  Time since last request: 0.0059856 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.0082177Z
+  Time since last request: 0.0021752 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.0618027Z
+  Time since last request: 0.0019112 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.1047242Z
+  Time since last request: 0.0006987 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.1643794Z
+  Time since last request: 0.0086106 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.2209311Z
+  Time since last request: 0.0034045 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.3112477Z
+  Time since last request: 0.0081942 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.3737665Z
+  Time since last request: 0.0060171 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.4329429Z
+  Time since last request: 0.0045727 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.4706285Z
+  Time since last request: 0.0016178 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.5153957Z
+  Time since last request: 0.0042743 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.5763894Z
+  Time since last request: 0.0049716 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.6212067Z
+  Time since last request: 0.0007656 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.6510836Z
+  Time since last request: 0.0026071 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.68184Z
+  Time since last request: 0.0041512 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.7191665Z
+  Time since last request: 0.0012474 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.7575335Z
+  Time since last request: 0.0025801 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.8013539Z
+  Time since last request: 0.017317 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.8315325Z
+  Time since last request: 0.0024823 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.8684357Z
+  Time since last request: 0.0023336 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.016 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.9232066Z
+  Time since last request: 0.0031434 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.010 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:16.9788853Z
+  Time since last request: 0.005881 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.036453Z
+  Time since last request: 0.0050202 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.0819339Z
+  Time since last request: 0.0021774 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.1536366Z
+  Time since last request: 0.0051887 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.2437917Z
+  Time since last request: 0.0074955 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.2853702Z
+  Time since last request: 0.0040507 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.3178705Z
+  Time since last request: 0.0009684 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.3458881Z
+  Time since last request: 0.0006144 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.3761978Z
+  Time since last request: 0.0017518 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.4127097Z
+  Time since last request: 0.0046492 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.4546115Z
+  Time since last request: 0.006052 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.4988021Z
+  Time since last request: 0.0017989 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.007 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.5483687Z
+  Time since last request: 0.0012688 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.6075679Z
+  Time since last request: 0.0054923 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.6544112Z
+  Time since last request: 0.0032926 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.6997556Z
+  Time since last request: 0.0041791 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.7327383Z
+  Time since last request: 0.0028631 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.7671235Z
+  Time since last request: 0.0022363 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.8203194Z
+  Time since last request: 0.0071538 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.8651672Z
+  Time since last request: 0.0027185 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.9042528Z
+  Time since last request: 0.0012889 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.9492962Z
+  Time since last request: 0.0014407 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:17.9843514Z
+  Time since last request: 0.0004913 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:18.0420541Z
+  Time since last request: 0.0215501 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:18.0941721Z
+  Time since last request: 0.0062106 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:12:18.1426012Z
+  Time since last request: 0.0079772 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+  ERROR: Build asset version error: assets/scripts/audiomanager.cs in SourceAssetDB has modification time of '2026-11-20T01:10:57.3257902Z' while content on disk has modification time of '2026-11-20T01:11:51.2299804Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.13 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.034 seconds
+Domain Reload Profiling: 9165ms
+	BeginReloadAssembly (2969ms)
+		DisableScriptedObjects (490ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1029ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (201ms)
+	LoadAllAssembliesAndSetupDomain (3884ms)
+		LoadAssemblies (3632ms)
+		TypeCache.Refresh (189ms)
+			TypeCache.ScanAssembly (6ms)
+		AnalyzeDomain (550ms)
+			BuildScriptInfoCaches (531ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2036ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (365ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (447ms)
+			AfterProcessingInitializeOnLoad (68ms)
+			EditorAssembliesLoaded (10ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Refreshing native plugins compatible for Editor in 13.99 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.8 MB). Loaded Objects now: 8663.
+Memory consumption went from 375.5 MB to 369.7 MB.
+Total: 51.530400 ms (FindLiveObjects: 9.568900 ms CreateObjectMapping: 2.371100 ms MarkObjects: 31.610600 ms  DeleteObjects: 6.793200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:17:55.1322019Z
+  Time since last request: 336.89196040000002 seconds.
+  importAddress: GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: PreviewImporter
+Importing 'GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a60aab39b44f274ca6c995f82cffa01' -> (Import Result ID: '886e41f8f345829fbc2404eaec6e557e') in 0.136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e3664125397c648dbbcb93b90367873 DependenciesID=0de34e3708151123303bcdfaf975205f StaticDependenciesID=65ff1966ad9169801ec97a1d04a8fd8a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:18:00.908867Z
+  Time since last request: 5.3914038 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '6f5ef26a1eb11b998f0a094985c075bc') in 1.867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5391e0f2a2dfdfe55222a1821c4ed97b DependenciesID=739ffa4e217495bc6b84fb5e6990a06d StaticDependenciesID=1e706b66705f0105fe45f121700f8305 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 61.68 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (5.9 MB). Loaded Objects now: 8663.
+Memory consumption went from 377.2 MB to 371.3 MB.
+Total: 375.199700 ms (FindLiveObjects: 106.701400 ms CreateObjectMapping: 8.547100 ms MarkObjects: 246.502300 ms  DeleteObjects: 8.441600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 11.12 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.573 seconds
+Domain Reload Profiling: 9994ms
+	BeginReloadAssembly (4450ms)
+		DisableScriptedObjects (690ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1565ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (362ms)
+	LoadAllAssembliesAndSetupDomain (3540ms)
+		LoadAssemblies (2530ms)
+		TypeCache.Refresh (90ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (990ms)
+			BuildScriptInfoCaches (942ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1577ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (319ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 6.86 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (7.0 MB). Loaded Objects now: 8666.
+Memory consumption went from 380.5 MB to 373.5 MB.
+Total: 21.154800 ms (FindLiveObjects: 2.380900 ms CreateObjectMapping: 0.587000 ms MarkObjects: 11.882800 ms  DeleteObjects: 5.638600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:18:38.8711201Z
+  Time since last request: 36.0365708 seconds.
+  importAddress: GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: PreviewImporter
+Importing 'GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 782d90af9643d7746bba3fc40a804ff2' -> (Import Result ID: '67b53ff19afa0cbdce5211771f8c0ab1') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9104fd1f1d7fcfd6b50f03a7252078d9 DependenciesID=9a5320b74a75ed385d913ab15328a683 StaticDependenciesID=1a39502b7e630242c83aefd8a0f828b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:18:45.9262552Z
+  Time since last request: 7.0036311 seconds.
+  importAddress: GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a60aab39b44f274ca6c995f82cffa01 - Path: Assets/Scripts/IdleBobbing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a60aab39b44f274ca6c995f82cffa01' -> (Import Result ID: 'f83b0ddb40feb0377e553ff7fe3930c5') in 2.408 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d51de93bde6177d5176dcb7d6a7e232 DependenciesID=1102b8f036cd89e4c3707c4866245087 StaticDependenciesID=746ca0ceb76c9214fe8b415fd223e8d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 14.68 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (4.2 MB). Loaded Objects now: 8666.
+Memory consumption went from 379.4 MB to 375.3 MB.
+Total: 247.130000 ms (FindLiveObjects: 7.892000 ms CreateObjectMapping: 15.388500 ms MarkObjects: 195.786500 ms  DeleteObjects: 22.498400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.10 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.757 seconds
+Domain Reload Profiling: 9860ms
+	BeginReloadAssembly (2977ms)
+		DisableScriptedObjects (361ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (1277ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (643ms)
+	LoadAllAssembliesAndSetupDomain (3432ms)
+		LoadAssemblies (2722ms)
+		TypeCache.Refresh (93ms)
+			TypeCache.ScanAssembly (4ms)
+		AnalyzeDomain (772ms)
+			BuildScriptInfoCaches (719ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2760ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (7ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (1105ms)
+			ProcessInitializeOnLoadMethodAttributes (469ms)
+			AfterProcessingInitializeOnLoad (124ms)
+			EditorAssembliesLoaded (6ms)
+		AwakeInstancesAfterBackupRestoration (96ms)
+Refreshing native plugins compatible for Editor in 5.78 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (6.6 MB). Loaded Objects now: 8669.
+Memory consumption went from 382.6 MB to 376.0 MB.
+Total: 21.215200 ms (FindLiveObjects: 2.480300 ms CreateObjectMapping: 1.091300 ms MarkObjects: 13.718100 ms  DeleteObjects: 3.132200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:19:29.4312109Z
+  Time since last request: 40.9941177 seconds.
+  importAddress: GUID: a1a465d22cef0c54cbd0c8d57564f32a - Path: Assets/Scripts/GameOverController.cs - Importer: PreviewImporter
+Importing 'GUID: a1a465d22cef0c54cbd0c8d57564f32a - Path: Assets/Scripts/GameOverController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a1a465d22cef0c54cbd0c8d57564f32a' -> (Import Result ID: '93ed079ebf1939fd94c276f6dd5a92c2') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9c5aa8b78fd6dd78f2881d826e712b9 DependenciesID=e06e474468b3b4c12a1f4c7f36f29dbe StaticDependenciesID=58b3a11958563d0ff5a5bcb001aaaf5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:19:35.9181903Z
+  Time since last request: 6.417478 seconds.
+  importAddress: GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 782d90af9643d7746bba3fc40a804ff2 - Path: Assets/Scripts/StartGameController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 782d90af9643d7746bba3fc40a804ff2' -> (Import Result ID: '95deb54cbe7f99e7ca056fc88df8fae1') in 2.055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8b07893887ded962034eb84f3ca3f8e DependenciesID=9ee351eaba8bc98b2a8a13efb66f8b1d StaticDependenciesID=9599c1f16ed8771a27ee9f4c8067c9bb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 20.37 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (3.2 MB). Loaded Objects now: 8669.
+Memory consumption went from 381.2 MB to 378.0 MB.
+Total: 503.320500 ms (FindLiveObjects: 13.629200 ms CreateObjectMapping: 6.831500 ms MarkObjects: 462.589500 ms  DeleteObjects: 18.072400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.35 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.642 seconds
+Domain Reload Profiling: 9399ms
+	BeginReloadAssembly (2553ms)
+		ExecutionOrderSort (13ms)
+		DisableScriptedObjects (491ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (579ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (268ms)
+	LoadAllAssembliesAndSetupDomain (4860ms)
+		LoadAssemblies (2727ms)
+		TypeCache.Refresh (311ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (1551ms)
+			BuildScriptInfoCaches (1498ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1644ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (659ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 7.82 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.3 MB). Loaded Objects now: 8672.
+Memory consumption went from 384.5 MB to 379.2 MB.
+Total: 24.440900 ms (FindLiveObjects: 3.191700 ms CreateObjectMapping: 1.415200 ms MarkObjects: 13.138800 ms  DeleteObjects: 5.641700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.56 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (4.8 MB). Loaded Objects now: 8672.
+Memory consumption went from 386.8 MB to 382.0 MB.
+Total: 325.579100 ms (FindLiveObjects: 9.164200 ms CreateObjectMapping: 6.477900 ms MarkObjects: 302.765800 ms  DeleteObjects: 5.944800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.39 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.188 seconds
+Domain Reload Profiling: 20136ms
+	BeginReloadAssembly (4832ms)
+		ExecutionOrderSort (6ms)
+		DisableScriptedObjects (1049ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1698ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (134ms)
+	initialDomainReloadingComplete (340ms)
+	LoadAllAssembliesAndSetupDomain (9616ms)
+		LoadAssemblies (5039ms)
+		TypeCache.Refresh (246ms)
+			TypeCache.ScanAssembly (3ms)
+		AnalyzeDomain (4052ms)
+			BuildScriptInfoCaches (3118ms)
+			ResolveRequiredComponents (271ms)
+	FinalizeReload (5189ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (10ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (1201ms)
+			ProcessInitializeOnLoadAttributes (1489ms)
+			ProcessInitializeOnLoadMethodAttributes (240ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (150ms)
+Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.7 MB). Loaded Objects now: 8675.
+Memory consumption went from 389.8 MB to 384.1 MB.
+Total: 16.638800 ms (FindLiveObjects: 2.796600 ms CreateObjectMapping: 0.860300 ms MarkObjects: 9.211800 ms  DeleteObjects: 3.055100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:21:41.3837727Z
+  Time since last request: 123.2932538 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '67a7ae84ace8b2f51f51e86c5577a0df') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af08fb45dca2e809103aa2bdbb650eaf DependenciesID=24c63dadc663db2cdc3a8539edf2a52d StaticDependenciesID=ae7b2e52e05282d41df072e62d8518e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.94 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (4.8 MB). Loaded Objects now: 8675.
+Memory consumption went from 392.2 MB to 387.4 MB.
+Total: 91.870200 ms (FindLiveObjects: 3.665500 ms CreateObjectMapping: 3.457700 ms MarkObjects: 78.397300 ms  DeleteObjects: 5.424300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-20T01:22:08.0836594Z
+  Time since last request: 26.5946735 seconds.
+  importAddress: GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter
+Importing 'GUID: db66cb0346f64f349a36591726895290 - Path: Assets/Scripts/AudioManager.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db66cb0346f64f349a36591726895290' -> (Import Result ID: '948345b46402d76af42b9d4b764ebac2') in 0.716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af08fb45dca2e809103aa2bdbb650eaf DependenciesID=d9e80b93001894f0c0c635c4625c8437 StaticDependenciesID=e6c8703fc58924de50ece5786df99c15 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.44 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  7.110 seconds
+Domain Reload Profiling: 42117ms
+	BeginReloadAssembly (12492ms)
+		ExecutionOrderSort (5ms)
+		DisableScriptedObjects (2870ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (2480ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (324ms)
+	initialDomainReloadingComplete (724ms)
+	LoadAllAssembliesAndSetupDomain (21433ms)
+		LoadAssemblies (11178ms)
+		TypeCache.Refresh (365ms)
+			TypeCache.ScanAssembly (4ms)
+		AnalyzeDomain (4977ms)
+			BuildScriptInfoCaches (3506ms)
+			ResolveRequiredComponents (1257ms)
+	FinalizeReload (7113ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (121ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (1296ms)
+			ProcessInitializeOnLoadAttributes (2618ms)
+			ProcessInitializeOnLoadMethodAttributes (619ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.3 MB). Loaded Objects now: 8678.
+Memory consumption went from 384.9 MB to 379.6 MB.
+Total: 57.235900 ms (FindLiveObjects: 9.693700 ms CreateObjectMapping: 3.652900 ms MarkObjects: 34.651800 ms  DeleteObjects: 7.577800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 25.14 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (5.5 MB). Loaded Objects now: 8678.
+Memory consumption went from 387.2 MB to 381.7 MB.
+Total: 33.641500 ms (FindLiveObjects: 3.062500 ms CreateObjectMapping: 7.360100 ms MarkObjects: 20.009500 ms  DeleteObjects: 2.704500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 13.17 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (4.5 MB). Loaded Objects now: 8678.
+Memory consumption went from 389.5 MB to 384.9 MB.
+Total: 624.683900 ms (FindLiveObjects: 23.748100 ms CreateObjectMapping: 2.555500 ms MarkObjects: 564.767100 ms  DeleteObjects: 31.049100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 8.94 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.243 seconds
+Domain Reload Profiling: 13017ms
+	BeginReloadAssembly (3873ms)
+		ExecutionOrderSort (6ms)
+		DisableScriptedObjects (527ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (1116ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (518ms)
+	LoadAllAssembliesAndSetupDomain (5326ms)
+		LoadAssemblies (4129ms)
+		TypeCache.Refresh (166ms)
+		AnalyzeDomain (1216ms)
+			BuildScriptInfoCaches (1194ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3246ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			BeforeProcessingInitializeOnLoad (668ms)
+			ProcessInitializeOnLoadAttributes (1195ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 3.53 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.6 MB). Loaded Objects now: 8681.
+Memory consumption went from 392.8 MB to 387.3 MB.
+Total: 16.905500 ms (FindLiveObjects: 3.109000 ms CreateObjectMapping: 0.943600 ms MarkObjects: 9.487800 ms  DeleteObjects: 2.851600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 24.54 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7561 unused Assets / (4.1 MB). Loaded Objects now: 8681.
+Memory consumption went from 395.2 MB to 391.1 MB.
+Total: 1775.971100 ms (FindLiveObjects: 18.381800 ms CreateObjectMapping: 4.709800 ms MarkObjects: 1678.393700 ms  DeleteObjects: 72.077800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 44.76 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.142 seconds
+Domain Reload Profiling: 21882ms
+	BeginReloadAssembly (6559ms)
+		ExecutionOrderSort (4ms)
+		DisableScriptedObjects (1097ms)
+		ReleaseScriptingObjects (117ms)
+		CreateAndSetChildDomain (1735ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (116ms)
+	initialDomainReloadingComplete (531ms)
+	LoadAllAssembliesAndSetupDomain (11470ms)
+		LoadAssemblies (9535ms)
+		TypeCache.Refresh (257ms)
+			TypeCache.ScanAssembly (6ms)
+		AnalyzeDomain (1702ms)
+			BuildScriptInfoCaches (1668ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3145ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (66ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (290ms)
+			ProcessInitializeOnLoadAttributes (1083ms)
+			ProcessInitializeOnLoadMethodAttributes (423ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Refreshing native plugins compatible for Editor in 20.12 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7576 unused Assets / (5.6 MB). Loaded Objects now: 8684.
+Memory consumption went from 398.3 MB to 392.7 MB.
+Total: 118.513400 ms (FindLiveObjects: 3.035800 ms CreateObjectMapping: 1.650300 ms MarkObjects: 12.445500 ms  DeleteObjects: 100.134400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.94 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.0 MB). Loaded Objects now: 8684.
+Memory consumption went from 395.3 MB to 392.3 MB.
+Total: 43.281000 ms (FindLiveObjects: 1.987300 ms CreateObjectMapping: 1.007200 ms MarkObjects: 38.764000 ms  DeleteObjects: 0.837500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

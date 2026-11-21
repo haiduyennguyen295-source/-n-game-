@@ -1,0 +1,36 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix d1e130902a52aacf3174ca16dfc3561b
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file C:/Users/ADMIN/OneDrive/Desktop/FlappyBird/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: d1e130902a52aacf3174ca16dfc3561b
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+[Error] Failed to remove data for hash 5bc9c83e8d3f473408c636bfb8445d90. Failure received from service
+0x00007ff6452ece65 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff6452b0075 (Unity.DataStore) uds_cleanup
+0x00007ff64529ee6f (Unity.DataStore) 
+0x00007ff6452a015d (Unity.DataStore) 
+0x00007ff645287395 (Unity.DataStore) 
+0x00007ff64528681a (Unity.DataStore) 
+0x00007ff645286aff (Unity.DataStore) 
+0x00007ff6452828b5 (Unity.DataStore) 
+0x00007ff6453088f4 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffcd464dda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffcd60f9c5c (ntdll) RtlUserThreadStart
+
+Unity Data Store Application Complete
+Shut down UDS service system complete
